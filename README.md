@@ -4,6 +4,24 @@
 
 Among the various models tested for anomaly detection in our network traffic data, the **XGBoost classifier** emerged as the best-performing method. Its gradient boosting framework not only achieved high accuracy but also delivered balanced precision and recall across classes. This approach has been adopted as our primary method, while alternative methodologies were also explored.
 
+## Data 
+Source: https://www.kaggle.com/datasets/sampadab17/network-intrusion-detection?select=Train_data.csv
+
+The dataset to be audited was provided which consists of a wide variety of intrusions simulated in a military network environment. It created an environment to acquire raw TCP/IP dump data for a network by simulating a typical US Air Force LAN. The LAN was focused like a real environment and blasted with multiple attacks. A connection is a sequence of TCP packets starting and ending at some time duration between which data flows to and from a source IP address to a target IP address under some well-defined protocol. Also, each connection is labelled as either normal or as an attack with exactly one specific attack type. Each connection record consists of about 100 bytes.
+For each TCP/IP connection, 41 quantitative and qualitative features are obtained from normal and attack data (3 qualitative and 38 quantitative features) .The class variable has two categories:
+
+• Normal
+
+• Anomalous
+
+![image](https://github.com/user-attachments/assets/6339a932-a333-4995-9921-86c80e164ad5)
+![image](https://github.com/user-attachments/assets/1617ce42-87ad-4260-8e59-4c3cd2ebb1d4)
+![image](https://github.com/user-attachments/assets/42649e18-5e62-470c-8a04-c0a2e2dc454a)
+
+
+
+
+
 ## XGBoost as the Primary Anomaly Detection Method
 
 ### Key Outcomes
