@@ -1,4 +1,4 @@
-# Anomaly Detection in Network Traffic Using XGBoost
+# Anomaly Detection in Network Traffic Using XGBoost - 99.84% Accuracy 
 
 ## Overview
 
